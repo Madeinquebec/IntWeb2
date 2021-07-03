@@ -1,0 +1,52 @@
+.post__image--round {
+  border-radius: 75px;
+  width: 99%;
+}
+
+.tag__button, .tag__button--light, .tag__button--dark {
+  text-transform: uppercase;
+  border-width: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0 12px;
+  line-height: 32px;
+  background-color: #f0f0f0;
+  transition: .3s all ease-in-out;
+  display: inline-block;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 13px !important;
+  font-weight: 700;
+}
+
+.tag__button--light {
+  background-color: #f0f0f0;
+}
+
+.paddingLeft {
+  padding-left: 6rem;
+}
+
+.paddingright {
+  padding-right: 6rem;
+}
+
+.tag__button--dark {
+  background-color: #3A3A3A;
+}
+
+.footer--backgroundColor {
+  background-color: #262626;
+}
+
+.a--white {
+  color: white;
+}
+
+.footer__fontAwseome {
+  padding-right: 2rem;
+  padding-top: 5rem;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!--- index.html --->
+<!--- Programme par : Eric Gosselin --->
+<!--- Derniere modification : 2020-12-11 --->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>jevelin</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/css/banner.css">
+    <link rel="stylesheet" href="style/css/categorie.css">
+    <link rel="stylesheet" href="style/css/tag_imgPost.css">
+    <link rel="stylesheet" href="style/css/general-hx.css">
+    <link rel="stylesheet" href="style/css/footer.css">
+    <link rel="stylesheet" href="style/css/nav.css">
+
+</head>
+
+<body>
+
+    <!-- ************************************ -->
+    <!-- ******** HEADER **************** -->
+    <!-- ************************************ -->
+    <header>
+        <div class="container-fluid img-fluid header__backgroundImage">
+            <div class="row text-center">
+                <div class="col-12">
+
+                    <!-- ************************************ -->
+                    <!-- ********** NAV BAR ***************** -->
+                    <!-- ************************************ -->
+
+                    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+                    <nav class="navbar navbar-expand-lg navbar-light header--link">
+                        <!-- Ce qu'on met ici ne sera pas dans le hamburger -->
+                        <a class="navbar-brand" href="#">
+                            <img id="imgLogo" src="img/Jevelin-logov1.png" alt="Logo Jevelin">
+                        </a>
+
+                        <!-- Section hamburger' -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <!-- Image du hamburger -->
+                            <i class="fas fa-bars"></i>
+                        </button>
+
+                        <!-- Ci-dessous disparait dans le hamburger -->
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav mx-auto">
+                                <a class="nav-item nav-link active" href="index.html">
+                                    <h5 class="header__text--white">Home</h5>
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                                <a class="nav-item nav-link" href="index.html">
+                                    <h5 class="header__text--softWhite">Style</h5>
+                                </a>
+                                <a class="nav-item nav-link" href="index.html">
+                                    <h5 class="header__text--softWhite">People</h5>
+                                </a>
+                                <a class="nav-item nav-link" href="index.html">
+                                    <h5 class="header__text--softWhite">Design</h5>
+                                </a>
+                                <a class="nav-item nav-link" href="index.html">
+                                    <h5 class="header__text--softWhite">Travel</h5>
+                                </a>
+                                <a class="nav-item nav-link" href="index.html">
+                                    <h5 class="header__text--softWhite">Commercial</h5>
+                                </a>
+                                <a class="nav__fontAwseome header__text--softWhite" href="index.html">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <a class="nav__fontAwseome header__text--softWhite" href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="nav__fontAwseome header__text--softWhite" href="https://twitter.com/?lang=fr">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <!-- ************************************ -->
+                    <!-- ********** BANNER ****************** -->
+                    <!-- ************************************ -->
+
+                    <div class="banner--padding">
+                        <h1 class="header__text--softWhite">Home</h1>
+                        <h4 class="header__text--softWhite">Masonry + boxel layout</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ************************************ -->
+    <!-- ******** CATEGORIES **************** -->
+    <!-- ************************************ -->
+    <section>
+        <div class="container-fluid pt-5 pb-4">
+            <div class="row text-center">
+                <div class="col-12">
+                    <span class=" categorie__button--active">All</span>
+                    <span class="categorie__button">Commercial</span>
+                    <span class="categorie__button">Design</span>
+                    <span class="categorie__button">Nature</span>
+                    <span class="categorie__button">People</span>
+                    <span class="categorie__button">Photography</span>
+                    <span class="categorie__button">Tech</span>
+                    <span class="categorie__button">Travel</span>
+                    <span class="categorie__button">Uncategorized</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************************ -->
+    <!-- ********** GALLERY ***************** -->
+    <!-- ************************************ -->
+    <section>
+        <div class="container-fluid paddingLeft paddingright">
+            <div class="row">
+
+                <!-- ********** First colunm ***************** -->
+                <div class="col-12 col-sm-4">
+
+                    <div class=" pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/woman.jpg" alt="Woman by the water">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Trip that you'll never ever forget
+                                </h2>
+                                <p>Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat
+                                    volutpat. Quisque at finibus dui. Praesent…</p>
+                                <hr>
+                                <p>PEOPLE, TRAVEL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/StormTrooper.jpg" alt="Stormtrooper">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Movielike photo shoot – B&W
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque,
+                                    scelerisque nisl sit amet, molestie…</p>
+                                <hr>
+                                <p>DESIGN, PHOTOGRAPHY</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/manJumpLake.jpg" alt="Man jumping in the lake">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Top 5 tips to have a great vacation
+                                </h2>
+                                <p>In sed consectetur mi, a efficitur dui. Duis ac lacus sem. Aenean eget justo
+                                    malesuada, fringilla turpis…</p>
+                                <hr>
+                                <p>PEOPLE, TRAVEL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/shoesAndClothes.jpg" alt="Shoes and clothes">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    The proper way to dress up for the business meeting
+                                </h2>
+                                <p>Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat.
+                                    Quisque at finibus dui. Praesent…</p>
+                                <hr>
+                                <p>COMMERCIAL, DESIGN</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/womanHair-780x1024.jpg" alt="Woman with Black Hair">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Black and white portrait
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque,
+                                    scelerisque nisl sit amet, molestie…</p>
+                                <hr>
+                                <p>DESIGN, PEOPLE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/HandGoPro.jpg" alt="Hand holding a GoPro Camera">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Check out my new action camera!
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque,
+                                    scelerisque nisl sit amet, molestie…</p>
+                                <hr>
+                                <p>TECH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ********** Second colunm ***************** -->
+                <div class="col-12 col-sm-4">
+
+                    <div class=" pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/CameraCanon.jpg" alt="Canon Camera">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Must-have gear
+                                </h2>
+                                <p>Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula
+                                    lectus tincidunt. Nulla placerat…</p>
+                                <hr>
+                                <p>PHOTOGRAPHY, TECH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/sculpteur.jpg" alt="Man repairing a shoe">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Craftsmen at work
+                                </h2>
+                                <p>Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat
+                                    rhoncus magna, at consequat libero dictum…</p>
+                                <hr>
+                                <p>PEOPLE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <!-- YOUTUBE VIDEO -->
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/g4n2yVPnQzs"></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Video: Testing the “Black beast” on the road
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros
+                                    scelerisque, scelerisque nisl sit amet, molestie…</p>
+                                <hr>
+                                <p>PEOPLE, TECH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/roundBuilding.jpg" alt="Round Architectural Building">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    Main headquarters if finally ready
+                                </h2>
+                                <p>Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula
+                                    lectus tincidunt. Nulla placerat…</p>
+                                <hr>
+                                <p>COMMERCIAL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/winter-660x660.jpg" alt="Woman in the snow">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    The white slopes
+                                </h2>
+                                <p>Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula
+                                    lectus tincidunt. Nulla placerat…</p>
+                                <hr>
+                                <p>NATURE, PEOPLE, TRAVEL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pb-3">
+                        <div class="card">
+                            <img src="img/shoes.jpg" alt="Man walking with sport shoes">
+                            <div class="card-body">
+                                <h6>by shufflehound November 23, 2016</h6>
+                                <h2 class="card-title">
+                                    First steps in the right direction
+                                </h2>
+                                <p>Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat
+                                    rhoncus magna, at consequat libero dictum…</p>
+                                <hr>
+                                <p>COMMERCIAL, PEOPLE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ********** Third colunm - Publicité ***************** -->
+                <div class="col-12 col-sm-4 pt-4">
+
+                    <!-- ********** Latest Posts ***************** -->
+                    <!--First Posts Div-->
+
+                    <h3>Latest posts</h3>
+                    <div class="row">
+
+                        <div class="col-3">
+                            <img src="img/woman-150x150.jpg" alt="Woman by the water" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6>PEOPLE, TRAVEL</h6>
+                            <h4>Trip that you’ll never ever forget</h4>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="img/camera-150x150.jpg" alt="Canon Camera" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6>PHOTOGRAPHY, TECH</h6>
+                            <h4>Must-have gear</h4>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="img/StormTrooper-150x150.jpg" alt="Stormtrooper" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6>DESIGN, PHOTOGRAPHY</h6>
+                            <h4>Movielike photo shoot – B&W</h4>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="img/sculpteur-150x150.jpg" alt="Man repairing a shoe" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6>PEOPLE</h6>
+                            <h4>Craftsmen at work</h4>
+                        </div>
+
+                        <!--Adveetisement Picture-->
+                        <div class="col-12 pt-5 pb-5">
+                            <img src="img/ad.png" alt="Advertisement">
+                        </div>
+
+                        <!--Search Bar-->
+                        <div class="col-12 input-group">
+                            <div class="form-outline">
+                                <input type="search" id="form1" class="form-control" />
+
+                            </div>
+                            <button type="button" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+
+                        <!--Popular Tags-->
+                        <div class="col-12 pt-5">
+                            <h3>Popular tags</h3>
+
+                            <a href="#" class="tag__button--light a--dark">BIKE</a>
+                            <a href="#" class="tag__button--light a--dark">BUILDING</a>
+                            <a href="#" class="tag__button--light">CAMERA</a>
+                            <a href="#" class="tag__button--light">GEAR</a>
+                            <a href="#" class="tag__button--light">GIRL</a>
+                            <a href="#" class="tag__button--light">JUMPING</a>
+                            <a href="#" class="tag__button--light">LAKE</a>
+                            <a href="#" class="tag__button--light">LIFESTYLE</a>
+                            <a href="#" class="tag__button--light">MASTER</a>
+                            <a href="#" class="tag__button--light">MOCK-UP</a>
+                            <a href="#" class="tag__button--light">MOTIVATION</a>
+                            <a href="#" class="tag__button--light">MOUNTAINS</a>
+                            <a href="#" class="tag__button--light">MOVIE</a>
+                            <a href="#" class="tag__button--light">NOTEBOOK</a>
+                            <a href="#" class="tag__button--light">OFFICE</a>
+                            <a href="#" class="tag__button--light">STORMTROOPER</a>
+                            <a href="#" class="tag__button--light">SWIMMING</a>
+                            <a href="#" class="tag__button--light">TROOPER</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <!--- Pied de page --->
+    <footer>
+        <div class="container-fluid pt-5 pb-5 paddingLeft paddingright footer--backgroundColor">
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <img src="img/Jevelin-logov1.png" alt="jevelin logo">
+                    <p class="p--white pt-3">Pellentesque placerat tincidunt urna, vitae feugiat magna vestibulum non.
+                        Mauris
+                        ut sagittis est.
+                        Pellentesque a felis est. Duis in risus metus. Cras felis ante, sodales eget pretium eu,
+                        hendrerit at metus. Maecenas aliquam dictum sapien id ornare.
+                    </p>
+
+                    </a>
+                    <a class="footer__fontAwseome a--white" href="https://twitter.com/?lang=fr">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="footer__fontAwseome a--white" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3 class="h3--white pb-3">Latest posts</h3>
+                    <div class="row">
+
+                        <div class="col-3">
+                            <img src="img/woman-150x150.jpg" alt="Woman by the water" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="h6--white">PEOPLE, TRAVEL</h6>
+                            <h4 class="h4--white">Trip that you’ll never ever forget</h4>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="img/camera-150x150.jpg" alt="Canon Camera" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="h6--white">PHOTOGRAPHY, TECH</h6>
+                            <h4 class="h4--white">Must-have gear</h4>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="img/StormTrooper-150x150.jpg" alt="Stormtrooper" class="post__image--round">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="h6--white">DESIGN, PHOTOGRAPHY</h6>
+                            <h4 class="h4--white">Movielike photo shoot – B&W</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3 class="h3--white pb-3">Tags</h3>
+
+                    <a href="#" class="tag__button--dark a--white">BIKE</a>
+                    <a href="#" class="tag__button--dark a--white">BUILDING</a>
+                    <a href="#" class="tag__button--dark a--white">CAMERA</a>
+                    <a href="#" class="tag__button--dark a--white">GEAR</a>
+                    <a href="#" class="tag__button--dark a--white">GIRL</a>
+                    <a href="#" class="tag__button--dark a--white">JUMPING</a>
+                    <a href="#" class="tag__button--dark a--white">LAKE</a>
+                    <a href="#" class="tag__button--dark a--white">LIFESTYLE</a>
+                    <a href="#" class="tag__button--dark a--white">MASTER</a>
+                    <a href="#" class="tag__button--dark a--white">MOCK-UP</a>
+                    <a href="#" class="tag__button--dark a--white">MOTIVATION</a>
+                    <a href="#" class="tag__button--dark a--white">MOUNTAINS</a>
+                    <a href="#" class="tag__button--dark a--white">MOVIE</a>
+                    <a href="#" class="tag__button--dark a--white">NOTEBOOK</a>
+                    <a href="#" class="tag__button--dark a--white">OFFICE</a>
+                    <a href="#" class="tag__button--dark a--white">STORMTROOPER</a>
+                    <a href="#" class="tag__button--dark a--white">SWIMMING</a>
+                    <a href="#" class="tag__button--dark a--white">TROOPER</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,iBAAiB,CAAC;EAEd,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,MAAM;CAAG",
+    "sources": [
+        "../sass/nav.sass"
+    ],
+    "names": [],
+    "file": "nav.css"
+}

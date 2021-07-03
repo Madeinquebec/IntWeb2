@@ -1,0 +1,17 @@
+@mixin background($imgpath,$position: 0 0,$repeat: no-repeat)
+    background:
+        image: url($imgpath)
+        position: $position
+        repeat: $repeat
+
+.banner--padding
+    padding: 14%
+
+.header__backgroundImage
+    @include background('../../img/Blog_title_image.jpg')
+
+.header__text--softWhite
+    color: #e4e4e4
+
+.header__text--white
+    color: #ffffff

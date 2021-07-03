@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,GAAG;CAAG;;AAEnB,AAAA,wBAAwB,CAAC;EAPjB,gBAAK,EAAE,qCAAa;EACpB,mBAAQ,EAHsB,CAAC,CAAC,CAAC;EAIjC,iBAAM,EAJqC,SAAS;CAUA;;AAE5D,AAAA,wBAAwB,CAAC;EACrB,KAAK,EAAE,OAAO;CAAG;;AAErB,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,OAAO;CAAG",
+    "sources": [
+        "../sass/banner.sass"
+    ],
+    "names": [],
+    "file": "banner.css"
+}

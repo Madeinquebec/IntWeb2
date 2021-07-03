@@ -1,0 +1,18 @@
+.banner--padding {
+  padding: 14%;
+}
+
+.header__backgroundImage {
+  background-image: url("../../img/Blog_title_image.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.header__text--softWhite {
+  color: #e4e4e4;
+}
+
+.header__text--white {
+  color: #ffffff;
+}
+/*# sourceMappingURL=banner.css.map */
